@@ -18,7 +18,7 @@ router.post("/add", async (req, res) => {
     }
 });
 
-//GET REQUEST
+//GET ALL DATA
 
 router.get("/getbooks", async(req,res)=>{
     try {
